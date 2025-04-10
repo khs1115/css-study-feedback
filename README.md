@@ -17,3 +17,5 @@
 
 과제 제출 기한 : 4/27 자정까지
 코드리뷰 반영 기한 : 4/30 자정까지
+
+제출 방법 notion : https://www.notion.so/dawnww/CSS-1d10eaa5a4d5806ba0d3c7330cf29092?pvs=4
