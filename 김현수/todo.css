@@ -11,9 +11,19 @@
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.items1{
+
+.box1 {
+    margin-bottom: 50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgba(222, 255, 252, 0.906);
+}
+
+.title{
     font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
     text-align: center;
+    color: #4CAF50;
+    size: 50px;
  }
 
 html {
@@ -29,11 +39,12 @@ body {
     align-items: center;
 }
 
-.task {
-    margin-left: 30px; /* ← 원하는 만큼 오른쪽으로 이동시킴 */
+.countList {
+    justify-content: space-between;
+    width: 440px;
+    margin-left: 30px; 
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 .plus {width: 40px;
     height: 40px;
@@ -43,17 +54,35 @@ body {
     color: white;
     border: none;
     display: block;
-    margin: 20px auto 0;
-    margin-top: 27px;
     
 }
 
 .input-box {
-    width: 80%;
-    height: 100px;
+    margin-top: 10px;
+    width: 200%;
+    height:25px;
     font-size: 16px;
     padding: 8px;
     border: 1px solid lightgray;
     border-radius: 6px;
     margin-bottom: 10px;
+}
+
+.box2 {
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 97px;
+    background-color: rgb(237, 237, 237);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+
+}
+
+.xsign { 
+    width: 20px;
+    height: 20px;
+    padding: 0px;
 }
